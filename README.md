@@ -1,3 +1,11 @@
-Code contains implementation of a distributed partition algorithm named JA-BE-JA. I takes edge list and parition the node on the basis of cluster.
+#Python Code
 
-The Code requires a Cassandra keyspace name JBJ with a column family which is defined in the setup file
+JBJ.py %this file contains the implementation of JBJ
+
+#PRE-REQUISITE
+
+keyspace- the code requires keyspace named 'JBJ' in Cassandra
+
+column family- a column family named 'Master'. Description of column family can be find in setup file
+
+edge list- a file containing list of edges. sample edges.txt file is available in the directory
